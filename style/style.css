@@ -3,6 +3,7 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Poppins', sans-serif;
+  --padding-contact: 20px 15px;
 }
 
 body {
@@ -15,7 +16,8 @@ body {
   text-align: center;
 }
 
-.hero p {
+h2 {
+  font-family: var(--heading-font-family);
   font-size: 36px;
   color: #272142;
 }
@@ -26,12 +28,12 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
-  font-family: var(--heading-font-family);
+p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
 }
+
 
 .btn-branding {
   background-color: var(--branding-color);
@@ -40,4 +42,66 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.fitImg {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--branding-color);
+  padding: var(--padding-contact);
+}
+
+.btn-primary:hover {
+  background-color: var(--branding-color);
+  color: #0d6efd;
+}
+
+.btn-outline-primary {
+  align-self: center;
+  color: var(--branding-color);
+  padding: var(--padding-contact);
+}
+
+.btn-outline-primary:hover {
+  color: #0d6efd;
+  background-color: #fff;
+}
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .justifyBtn {
+    margin-top: 0 !important;
+  }
+
+  .textCenter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .textCenter:last-child {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .justifyBtn {
+    margin-top: 0 !important;
+  }
 }
