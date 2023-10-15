@@ -1,0 +1,86 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: 'Playfair Display', serif;
+  --default-font-family: 'Poppins', sans-serif;
+  --padding-contact: 20px 15px;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+.container {
+  padding: 60px 15px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: #fff;
+}
+
+.contex-box {
+  background-color: var(--secondary-color);
+  margin-top: 120px;
+  padding: 30px 70px;
+  border-radius: 5px;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.emailLink:hover {
+  text-decoration: none;
+}
+
+.socialLinks {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
