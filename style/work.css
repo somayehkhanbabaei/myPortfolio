@@ -31,6 +31,12 @@ h3 {
   line-height: 1.5;
 }
 
+.contex-box h3 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
 p {
   font-size: 14px;
   line-height: 30px;
@@ -61,8 +67,9 @@ p {
 }
 
 .contex-box {
+  max-width: 1300px;
   background-color: var(--secondary-color);
-  margin-top: 120px;
+  margin: 50px auto;
   padding: 30px 70px;
   border-radius: 5px;
 }
