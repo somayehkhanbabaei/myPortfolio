@@ -34,6 +34,13 @@ p {
   font-size: 24px;
 }
 
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
@@ -46,6 +53,50 @@ p {
 .fitImg {
   width: 100%;
 }
+
+/* Start Header */
+
+header {
+  margin: 0 105px;
+}
+
+nav {
+  padding: 20px 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.headerLogo img {
+  width: 145px;
+}
+
+.navLink {
+  flex: 1;
+}
+
+.navLink li {
+  padding: 10px;
+}
+
+.active {
+  color: var(--branding-color);
+}
+
+.navLink li a:hover {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+/* End Header */
 
 .btn-primary {
   background-color: var(--branding-color);

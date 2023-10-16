@@ -43,15 +43,36 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav>
-      <a href="work.html">My work</a>
-    </nav>
+    <header>
+      <nav class="d-flex justify-content-between">
+        <div class="headerLogo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="navLink">
+          <ul class="d-flex flex-row-reverse">
+            <li>
+              <a href="index.html">Contact</a>
+            </li>
+            <li>
+              <a href="about.html">Work</a>
+            </li>
+            <li>
+              <a href="work.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="active"> Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <div class="hero">
-      <h2>👋Hello I'm</h2>
+      <p>👋Hello I'm</p>
       <h1>Somayeh Khanbabaei</h1>
       <p class="mb-5">Front-end developer based in Iran</p>
       <div>
-        <a href="#" class="btn btn-branding mr-2">Contact me</a>
+        <a href="contact.html" class="btn btn-branding mr-2">Contact me</a>
         <a href="about.html" class="btn btn-branding ml-2">About me</a>
       </div>
     </div>
