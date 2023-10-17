@@ -10,10 +10,20 @@ body {
   font-family: var(--default-font-family);
 }
 
+div.row {
+  margin-bottom: 160px !important;
+}
+
 .hero {
   background-color: var(--secondary-color);
   padding: 160px 20px;
   text-align: center;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: bold;
 }
 
 h2 {
@@ -22,9 +32,9 @@ h2 {
   color: #272142;
 }
 
-h1 {
+h3 {
+  font-size: 48px;
   font-family: var(--heading-font-family);
-  font-size: 96px;
   font-weight: bold;
 }
 
@@ -50,8 +60,24 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
 .fitImg {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Start Header */
@@ -112,6 +138,44 @@ li a {
   align-self: center;
   color: var(--branding-color);
   padding: var(--padding-contact);
+}
+
+.textCenter h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.contex-box {
+  max-width: 1300px;
+  background-color: var(--secondary-color);
+  margin: 50px auto;
+  padding: 30px 70px;
+  border-radius: 5px;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.emailLink:hover {
+  text-decoration: none;
+}
+
+.socialLinks {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .btn-outline-primary:hover {

@@ -38,6 +38,50 @@ p {
   line-height: 30px;
 }
 
+/* Start Header */
+
+header {
+  margin: 0 105px;
+}
+
+nav {
+  padding: 20px 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.headerLogo img {
+  width: 145px;
+}
+
+.navLink {
+  flex: 1;
+}
+
+.navLink li {
+  padding: 10px;
+}
+
+.active {
+  color: var(--branding-color);
+}
+
+.navLink li a:hover {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+/* End Header */
+
 .btn-branding {
   color: #fff;
   background-color: var(--branding-color);
