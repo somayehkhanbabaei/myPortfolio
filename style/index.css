@@ -1,8 +1,8 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --heading-font-family: 'Playfair Display', serif;
-  --default-font-family: 'Poppins', sans-serif;
+  --heading-font-family: "Open Sans", serif;
+  --default-font-family: 'Roboto Condensed', sans-serif;
   --padding-contact: 20px 15px;
 }
 
@@ -172,10 +172,37 @@ li a {
   margin-right: 20px;
 }
 
-footer p {
+/* footer p {
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
+} */
+
+/* Start Footer */
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 50px;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+
+}
+
+.socials a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.socials i {
+  font-size: 35px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 50px;
+  margin: 0 10px;
 }
 
 .btn-outline-primary:hover {
