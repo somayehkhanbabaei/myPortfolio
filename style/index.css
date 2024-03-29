@@ -178,6 +178,11 @@ li a {
   line-height: 30px;
 } */
 
+.biography {
+  font-size: 25px;
+  line-height: 2;
+}
+
 /* Start Footer */
 
 footer {
