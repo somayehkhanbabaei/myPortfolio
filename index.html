@@ -45,7 +45,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <nav class="d-flex justify-content-between">
         <div class="headerLogo">
           <img src="images/logo.png" alt="logo" />
@@ -67,7 +67,7 @@
           </ul>
         </div>
       </nav>
-    </header>
+    </header> -->
 
     <div class="hero">
       <p>👋Hello I'm</p>
@@ -81,14 +81,15 @@
     </div>
 
     <div class="container">
-      <div class="row mt-5">
-        <div class="col textCenter">
-          <h2 class="text-center mb-5">Weather app</h2>
+      <div class="row justify-content-between">
+        <div class="col-5 textCenter">
+          <h2 class="mb-3">Weather app</h2>
           <p class="mb-5 text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            A weather app made with JavaScript, APIs, and React is built by
+            leveraging JavaScript's programming capabilities to handle logic and
+            interactions, integrating APIs (such as OpenWeatherMap or Dark Sky)
+            to fetch weather data, and using React for creating a dynamic user
+            interface.
           </p>
           <div class="text-center">
             <a
@@ -99,21 +100,21 @@
             >
           </div>
         </div>
-        <div class="col d-none d-lg-block">
+        <div class="col-5 d-none d-lg-block">
           <img src="./images/weather.png" alt="weather image" class="fitImg" />
         </div>
       </div>
 
-      <div class="row mt-5">
-        <div class="col bg-light d-none d-lg-block">
+      <div class="row justify-content-between mt-4">
+        <div class="col-5 bg-light d-none d-lg-block">
           <img
             src="./images/dictionary.png"
             alt="dictionaryImage"
             class="fitImg"
           />
         </div>
-        <div class="col textCenter">
-          <h2 class="text-center mb-5">Dictionary App</h2>
+        <div class="col-5 textCenter">
+          <h2 class="mb-3">Dictionary App</h2>
           <p class="mb-5 text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
@@ -132,9 +133,9 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="aboutMe">
+    <div class="container" id="aboutMe">
       <h1 class="mb-5 text-center">About Me</h1>
-      <div class="row justify-content-around text-center p-5">
+      <div class="row justify-content-between">
         <div class="col-5">
           <p class="mb-5 biography">
             I recently developed a keen interest in programming and took the
@@ -146,8 +147,8 @@
             growth and learning
           </p>
         </div>
-        <div class="col-5">
-          <img src="images/somayeh.jpeg" width="450" alt="" />
+        <div class="col-5 d-none d-lg-block">
+          <img src="images/somayeh.jpeg" alt="my photo" class="personalPhoto" />
         </div>
       </div>
     </div>
