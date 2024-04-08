@@ -45,30 +45,6 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <!-- <header>
-      <nav class="d-flex justify-content-between">
-        <div class="headerLogo">
-          <img src="images/logo.png" alt="logo" />
-        </div>
-        <div class="navLink">
-          <ul class="d-flex flex-row-reverse">
-            <li>
-              <a href="contact.html" title="contact page">Contact</a>
-            </li>
-            <li>
-              <a href="work.html" title="workPage">Work</a>
-            </li>
-            <li>
-              <a href="about.html" title="about page">About</a>
-            </li>
-            <li>
-              <a href="/" class="active" title="home page"> Home</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header> -->
-
     <div class="hero">
       <p>👋Hello I'm</p>
       <h1>Somayeh Khanbabaei</h1>
@@ -81,9 +57,14 @@
     </div>
 
     <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
       <div class="row justify-content-between">
-        <div class="col-5 textCenter">
-          <h2 class="mb-3">Weather app</h2>
+        <div class="col-5 textCenter pl-0">
+          <h3 class="mb-3">Weather app</h3>
           <p class="mb-5 text-muted">
             A weather app made with JavaScript, APIs, and React is built by
             leveraging JavaScript's programming capabilities to handle logic and
@@ -100,26 +81,25 @@
             >
           </div>
         </div>
-        <div class="col-5 d-none d-lg-block">
+        <div class="col-6 backgroundJob d-none d-lg-block">
           <img src="./images/weather.png" alt="weather image" class="fitImg" />
         </div>
       </div>
 
       <div class="row justify-content-between mt-4">
-        <div class="col-5 bg-light d-none d-lg-block">
+        <div class="col-6 backgroundJob d-none d-lg-block">
           <img
-            src="./images/dictionary.png"
+            src="./images/todayIlearn.gif"
             alt="dictionaryImage"
             class="fitImg"
           />
         </div>
         <div class="col-5 textCenter">
-          <h2 class="mb-3">Dictionary App</h2>
-          <p class="mb-5 text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+          <h3 class="mb-3">Today I Learned</h3>
+          <p class="mb-5 text-muted pr-0">
+            I utilized HTML, CSS, JavaScript, and React in this application. I
+            utilized Supabase to obtain authentic data. Users can add a new
+            fact, respond to it, or categorize them. The app is also responsive.
           </p>
           <div class="text-center">
             <a
@@ -134,10 +114,10 @@
     </div>
 
     <div class="container" id="aboutMe">
-      <h1 class="mb-5 text-center">About Me</h1>
+      <h2 class="mb-5 text-center">About Me</h2>
       <div class="row justify-content-between">
-        <div class="col-5">
-          <p class="mb-5 biography">
+        <div class="col-7 pl-0">
+          <p class="biography text-muted">
             I recently developed a keen interest in programming and took the
             initiative to enroll in SheCodes Academy, where I acquired
             foundational knowledge. Building on this, I furthered my skills by
@@ -147,7 +127,7 @@
             growth and learning
           </p>
         </div>
-        <div class="col-5 d-none d-lg-block">
+        <div class="col-5 d-none d-lg-block backgroundJob">
           <img src="images/somayeh.jpeg" alt="my photo" class="personalPhoto" />
         </div>
       </div>
