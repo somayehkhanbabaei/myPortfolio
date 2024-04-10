@@ -1,156 +1,102 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Somayeh is a front-end engineer based in Iran."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="style/index.css" />
+  <title>My Portfolio</title>
+</head>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
+<body>
+  <header>
+    <p>👋Hello I'm</p>
+    <h1>Somayeh Khanbabaei</h1>
+    <p>Front-End Developer based in Netherlands</p>
+    <a href="#aboutMe" class="btn btn-branding">About Me</a>
+  </header>
 
-    <link rel="stylesheet" href="style/index.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <div class="hero">
-      <p>👋Hello I'm</p>
-      <h1>Somayeh Khanbabaei</h1>
-      <p class="mb-5">Front-End Developer based in Nederlands</p>
-      <div>
-        <a href="#aboutMe" title="about page" class="btn btn-branding ml-2"
-          >About me</a
-        >
-      </div>
-    </div>
+  <main class="container">
+    <h2 class="text-center">My Projects</h2>
 
-    <div class="container">
-      <div class="row text-center">
-        <div class="col">
-          <h2>My Projects</h2>
-        </div>
-      </div>
-      <div class="row justify-content-between">
-        <div class="col-5 textCenter pl-0">
-          <h3 class="mb-3">Weather app</h3>
-          <p class="mb-5 text-muted">
-            A weather app made with JavaScript, APIs, and React is built by
-            leveraging JavaScript's programming capabilities to handle logic and
-            interactions, integrating APIs (such as OpenWeatherMap or Dark Sky)
-            to fetch weather data, and using React for creating a dynamic user
-            interface.
-          </p>
-          <div class="text-center">
-            <a
-              href="work.html"
-              title="work page"
-              class="btn btn-branding-outline"
-              >Learn more</a
-            >
+    <section class="project">
+        <div class="project-item row">
+          <div class="col-lg-6 pl-0">
+            <h3>Today I Learned</h3>
+            <p>
+              I utilized HTML, CSS, JavaScript, and React in this application. I
+              utilized Supabase to obtain authentic data. Users can add a new
+              fact, respond to it, or categorize them. The app is also responsive.
+            </p>  
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
+          </div>
+          <div class="col-lg-6 d-none d-sm-block pr-0">
+            <img
+            src="./images/todayIlearn.gif"
+            alt="todayilearnImage"
+            />
           </div>
         </div>
-        <div class="col-6 backgroundJob d-none d-lg-block">
-          <img src="./images/weather.png" alt="weather image" class="fitImg" />
-        </div>
-      </div>
 
-      <div class="row justify-content-between mt-4">
-        <div class="col-6 backgroundJob d-none d-lg-block">
-          <img
-            src="./images/todayIlearn.gif"
+        <div class="project-item row">
+          <div class="col-lg-6 pl-0">
+            <h3>Today I Learned</h3>
+            <p>
+              A weather app made with JavaScript, APIs, and React is built by
+              leveraging JavaScript's programming capabilities to handle logic and
+              interactions, integrating APIs (such as OpenWeatherMap or Dark Sky)
+              to fetch weather data, and using React for creating a dynamic user
+              interface.
+            </p>  
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
+          </div>
+          <div class="col-lg-6 d-none d-sm-block pr-0">
+            <img
+            src="./images/weather.png"
             alt="dictionaryImage"
-            class="fitImg"
+            class="project-item_img"
+            />
+          </div>
+        </div>   
+    </section>
+
+
+
+    <section id="aboutMe">
+      <h2 class="text-center">About Me</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            I recently developed a keen interest in programming and took the initiative to enroll in SheCodes Academy, where I acquired foundational knowledge. Building on this, I furthered my skills by completing courses on Udemy and applying my learning to various small projects. I am enthusiastic about embracing the challenges of real-world work environments and remain committed to continuous growth and learning.
+          </p>
+        </div>
+        <div class="col-lg-6 d-none d-sm-block text-right">
+          <img
+          src="./images/somayeh.jpeg"
+          alt="my photo"
           />
         </div>
-        <div class="col-5 textCenter">
-          <h3 class="mb-3">Today I Learned</h3>
-          <p class="mb-5 text-muted pr-0">
-            I utilized HTML, CSS, JavaScript, and React in this application. I
-            utilized Supabase to obtain authentic data. Users can add a new
-            fact, respond to it, or categorize them. The app is also responsive.
-          </p>
-          <div class="text-center">
-            <a
-              href="work.html"
-              title="work page"
-              class="btn btn-branding-outline"
-              >Learn more</a
-            >
-          </div>
-        </div>
       </div>
-    </div>
+    </section>
+  </main>
 
-    <div class="container" id="aboutMe">
-      <h2 class="mb-5 text-center">About Me</h2>
-      <div class="row justify-content-between">
-        <div class="col-7 pl-0">
-          <p class="biography text-muted">
-            I recently developed a keen interest in programming and took the
-            initiative to enroll in SheCodes Academy, where I acquired
-            foundational knowledge. Building on this, I furthered my skills by
-            completing courses on Udemy and applying my learning to various
-            small projects. I am enthusiastic about embracing the challenges of
-            real-world work environments and remain committed to continuous
-            growth and learning
-          </p>
-        </div>
-        <div class="col-5 d-none d-lg-block backgroundJob">
-          <img src="images/somayeh.jpeg" alt="my photo" class="personalPhoto" />
-        </div>
-      </div>
+  <footer>
+    <h3>Let's get in touch!</h3>
+    <div class="social">
+      <a href="https://github.com/somayehkhanbabaei" class="social-link" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/somayeh-khanbabaei-7a04b3173/" class="social-link" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href title="+31616692822" class="social-link" target="_blank">
+        <i class="bi bi-telephone-fill"></i>
+      </a>
     </div>
-
-    <footer>
-      <div class="container-fluid">
-        <h3 class="mb-5">Let's get in touch!</h3>
-        <div class="socials d-flex justify-content-center">
-          <a href="https://github.com/somayehkhanbabaei" target="_blank">
-            <i class="bi bi-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/somayeh-khanbabaei-7a04b3173/"
-            target="_blank"
-          >
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a title="+31616692822" target="_blank">
-            <i class="bi bi-phone-fill"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>
