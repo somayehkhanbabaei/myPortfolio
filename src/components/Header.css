@@ -1,0 +1,29 @@
+
+  nav {
+    padding: 40px;
+    box-shadow: .5px .5px 10px rgb(168, 167, 167);
+
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+ .navbar-link {
+    list-style-type: none;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  .navbar-link a {
+    text-decoration: none;
+    color: rgb(61, 56, 56);
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .navbar-link a:hover {
+    color: #6c63ff;
+    cursor: pointer;
+  }
