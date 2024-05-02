@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <>
       <footer id='contact'>
-        <h2>Contact me</h2> 
+        <h2>Contact Me</h2> 
         <div className="socials">
           <a href="https://github.com/somayehkhanbabaei" target='_blank'>
           <FontAwesomeIcon icon={faGithub} className='socials-link'/>

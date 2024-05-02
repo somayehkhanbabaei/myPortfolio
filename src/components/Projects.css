@@ -42,17 +42,18 @@
     margin: 20px 0;
 }
 
-.card-footer button {
+.card-footer a {
     border: 1px solid #6c63ff;
-    font-size: 18px;
+    font-size: 20px;
     padding: 15px 30px;
     border-radius: 5px;
     color: #6c63ff;
     background: #f9f7fe;
     line-height: 27px;
+    text-decoration: none;
 }
 
-.card-footer button:hover {
+.card-footer a:hover {
     cursor: pointer;
     color: #f9f7fe;
     background-color: #6c63ff;
